@@ -24,7 +24,7 @@ class DigitalClock(QWidget):
                                                              "color: hsl(111, 100%, 50%);")
         self.setStyleSheet("background-color: black;")
 
-        font_id = QFontDatabase.addApplicationFont("DS-DIGIT.TTF")
+        font_id = QFontDatabase.addApplicationFont("Digital-Clock/DS-DIGIT.TTF")
         font_families = QFontDatabase.applicationFontFamilies(font_id)
         if font_families:
             my_font = QFont(font_families[0], 300)
